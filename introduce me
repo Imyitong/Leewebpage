@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lee Yi Tong - Freelancer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: #ffffff;
+            text-align: center;
+        }
+        header {
+            padding: 2em 0;
+            background: #1c1c1c;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #f39c12;
+        }
+        .container {
+            padding: 2em;
+        }
+        .profile-picture {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 1em;
+        }
+        section {
+            margin: 2em 0;
+        }
+        section h2 {
+            color: #f39c12;
+        }
+        .footer {
+            background: #1c1c1c;
+            padding: 1em 0;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lee Yi Tong</h1>
+        <img src="your-image.jpg" alt="Lee Yi Tong" class="profile-picture">
+        <p>Freelancer in Webpage Designing and Content Writing</p>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Lee Yi Tong, a passionate freelancer specializing in webpage designing, landing pages, click funnels, and content writing. I love to create visually appealing and functional digital experiences that help businesses thrive online.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>I offer a range of services including:</p>
+            <ul>
+                <li>Webpage Designing</li>
+                <li>Landing Pages</li>
+                <li>Click Funnels</li>
+                <li>Content Writing</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to work with me, feel free to reach out:</p>
+            <p>Email: <a href="mailto:your-email@example.com" style="color: #f39c12;">your-email@example.com</a></p>
+        </section>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Lee Yi Tong. All rights reserved.</p>
+    </footer>
+</body>
+</html>
